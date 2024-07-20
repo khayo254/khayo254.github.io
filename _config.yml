@@ -1,16 +1,31 @@
 # _config.yml
+
+# Site settings
 title: Khayo Maina
-email: khayo1998@gmail.com
 description: "Hello! I’m Khayo Maina, a passionate backend developer with a knack for creating efficient, scalable, and secure applications. This portfolio showcases my journey, skills, and the projects I’ve worked on, including Twakula and beyond."
 author: Khayo Maina
-
-# URL settings
+email: khayo1998@gmail.com
 url: "https://khayo254.github.io"
-baseurl: ""
+baseurl: "" # Leave empty for the homepage
 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
 
-paginate: 5
-paginate_path: "/blog/page:num/"
+# Navigation links
+nav:
+  - name: "Home"
+    link: "/"
+  - name: "About"
+    link: "/about"
+  - name: "Projects"
+    link: "/projects"
+  - name: "Blog"
+    link: "/blog"
+
+# Social links
+github_username: khayo254
+twitter_username:
+linkedin_username: linkedin.com/in/michael-maina-khayo-bab677283
