@@ -6,7 +6,7 @@ description: "Hello! I’m Khayo Maina, a passionate backend developer with a kn
 author: Khayo Maina
 email: khayo1998@gmail.com
 url: "https://khayo254.github.io"
-baseurl: "" # Leave empty for the homepage
+baseurl: ""
 
 # Build settings
 markdown: kramdown
